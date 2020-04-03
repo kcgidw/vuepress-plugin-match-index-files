@@ -6,7 +6,7 @@ In other words, if you have some route like `/about`, you can write your page in
 
 This might make searching through your Markdown files a little easier, and can also be useful if you want to have README's for another purpose.
 
-This supersedes any `README.md` or `index.md` in the same directory. If this occurs, Vuepress' build logs should notify you with something like: `warning Override existing page <AFFECTED_ROUTE_HERE>`
+Matching index files will supersede any `README.md` or `index.md` in the same directory. If this occurs, Vuepress' build logs should notify you with something like: `warning Override existing page <AFFECTED_ROUTE_HERE>`
 
 ## Installation
 
